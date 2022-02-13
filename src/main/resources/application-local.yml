@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      host: 192.168.0.24
+      port: 28001
+      username: root
+      password: qweqweqwe2
+      database: config
+      authentication-database: admin
+  redis:
+    host: localhost
+    port: 6379
+server:
+  port: 8080
